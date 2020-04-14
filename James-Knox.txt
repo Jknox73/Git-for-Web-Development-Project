@@ -1,0 +1,98 @@
+https://codepen.io/the1andonlyjaks/pen/ExVxrYp?editors=1100
+
+ 1. What is Semantic HTML? 
+semantic HTML is the structure of web page content and it helps search engines
+    2. What is HTML used for?
+HTML is used to create electronic documents 
+    3. What is an attribute and where do we put it?
+ An attribute provides additional information about HTML elements and t is put in the beginning of the tag
+    4. What is the h1 tag used for? How many times should I use it on a page?
+It is the header text it should be used once
+    5. Name two tags that have required attributes
+
+    6. What do we put in the head of our HTML document?
+metadata about the web page that is not displayed to the user 
+    7. What is an id?
+used to point to a style in a style
+    8. What elements can I add an id to?
+css and javascript 
+    9. How many times can I use the same id on a page?
+once 
+    10. What is a class?
+ Specifies a name for an element
+    11. What elements can I add a class to? 
+section div nav
+    12. How many times can I use the same class on a page? 
+no limit
+    13. How do I get my link to open in a new tab?
+target="_blank"
+    14. What is the alt attribute in the image tag used for?
+alternate text if an image cant be displayed 
+    15. How do I reference an id?
+with #
+    16. What is the difference between a section and a div
+section defines the section and is semantic div divides the page and is non specific
+    17. What is CSS used for? 
+to add style to a web page
+    18. How to we select an element? Example - every h2 on the page
+type h2
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+an ID can be used to identify one element and a class can be used to identify more than one
+    20. How do we select classes in CSS?
+with a .
+    21. How do we select a p element with a single class of “human””?
+p.human
+    22. What is a parent child selector? When would this be useful? 
+used to match all the elements which are child of a specified element. When we want to match elements that are direct children of other elements
+    23. How do you select all links within a div with the class of sidebar?
+    24. What is a pseudo selector?
+keywords that start with a colon:
+    25. What do we use the change the spacing between lines?
+line-height using px
+    26. What do we use to change the spacing between letters?
+letter-spacing using px
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+text-transform:
+    28. How do I add a 1px border around my div that is dotted and black?
+border:1px dotted black;
+    29. How do I select everything on the page? 
+with *
+    30. How do I write a comment in CSS?
+/* comment
+    31. How do I find out what file I am in, when I am using the command line? 
+pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+rm there is no warming like in gui environment just deletes it
+    34. Why should I use version control? 
+helps you keep track of changes and keep every team member working off the latest version
+    35. How often should I commit to github?
+every 15 minutes
+    36. What is the command we would use to push our repo up to github? 
+git push
+    37. Walk me through Lambda's git flow.
+Go to the project repository
+Make sure you signed in to GitHub
+Press the Fork button
+Add your TLs as a collaboratorr the top
+click the green Clone button and copy the url 
+Open up r GitBash  
+Enter the command `git clone url`  
+Open that folder in your text editor  
+Checkout a new branch using `git checkout -b <firstname-lastname>`
+Complete the assignment, adding and committing as needed.
+Push your changes to the remote copy using `git push `
+Click New pull request
+Make sure the base repository is “<yourGitHubHandle>/<projectName>
+Add your TLs as reviewers
+Submit the request 
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+block element is any element that starts a new line. An inline element does not start on a new line and only takes up as much width as necessary
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+use CSS code 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
